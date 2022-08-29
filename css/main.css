@@ -10,6 +10,7 @@ body{
 }
 .main{
     margin-top: 40px;
+    padding: 0px 15px;
 }
 .title{
     font-weight: bold;
@@ -29,7 +30,9 @@ body{
     text-shadow: 0 0 5px #000;
 }
 .main__subtitle{
-    margin: 20px auto 40px auto;
+    margin: 20px 0px 40px 0px;
+    height: 60px;
+
 }
 .main__cards,.main__sum{
     margin-bottom:20px;
@@ -60,4 +63,15 @@ body{
     transition: .2s;
     background: #dfc480;
     box-shadow: 2px 2px 10px #000;
+}
+@media screen and (max-width: 768px){
+    .main__title{
+        font-size: 50px;
+    }
+    .main__subtitle,.main__cards,.main__sum{
+        font-size: 24px;
+    }
+    .main__buttons button{
+        font-size: 20px;
+    }
 }
